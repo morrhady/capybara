@@ -189,8 +189,8 @@ function App() {
           <p className="eyebrow">Capybara Companion</p>
           <h1>Hello {userName}! Stay calm, focused, and kind to yourself.</h1>
           <p className="lede">
-            Pomodoro timer + playful boxing bag quotes + task organizer. Non-clinical,
-            friendly, and here to keep you steady and focused.
+            Pomodoro timer + playful boxing bag quotes + task organizer. Non-clinical and
+            friendly, here to keep you steady and focused.
           </p>
         </div>
         <div className="hero-stats">
@@ -262,12 +262,12 @@ function App() {
         <section className="panel tasks">
           <div className="panel-header">
             <h2>Task organizer</h2>
-            <p className="hint">Lightweight prioritization to reduce overwhelm.</p>
+            <p className="hint">Prioritisation of your tasks to reduce stress</p>
           </div>
           <div className="task-form">
             <input
               type="text"
-              placeholder="Add a quick task"
+              placeholder="Add a task"
               value={newTaskTitle}
               onChange={(event) => setNewTaskTitle(event.target.value)}
             />
